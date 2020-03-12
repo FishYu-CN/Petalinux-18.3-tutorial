@@ -4,16 +4,16 @@
 更换国内源 apt update 一条龙一下  
 用户名为fish
 ## 2.环境配置
-### 1NFS服务*以后编写linux驱动要用*
+### 1NFS服务*（以后编写linux驱动要用）*
 安装NFS服务
 
     sudo apt-get install nfs-kernel-server
 在用户根目录下创建文件夹
 
     mkdir -p /home/fish/linux/nfs
-在nfs配置文件`/etc/exports`中添加目录  
-`/home/fish/linux/nfs *(rw,sync,no_root_squash)`  
+在nfs配置文件`/etc/exports`中添加目录
 
+    /home/fish/linux/nfs *(rw,sync,no_root_squash)
 使改动生效
 
     sudo exportfs -rv
