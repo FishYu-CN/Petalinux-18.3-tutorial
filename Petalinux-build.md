@@ -5,8 +5,7 @@ File > Export >Export hardware
 记得勾选`Include bitstream`
 把*.sdk那个文件夹弄过来备用
 ## 2.设置环境变量
-    cd /opt/pkg/petalinux/2018.3
-    source settings.sh
+    source /opt/pkg/petalinux/2018.3/settings.sh
 该命令只对当前终端有效，重新打开终端后需要重新执行这一步。
 ## 3.创建工程
 在用户根目录下创建`work/petalinux`文件夹并进入
