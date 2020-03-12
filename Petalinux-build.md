@@ -22,7 +22,7 @@ File > Export >Export hardware
     cd zynq_linux
 导入硬件文件开始配置工程
 
-    petalinux-config --get-hw-description /mnt/hgfs/share/zynq_petalinux.sdk/
+    petalinux-config --get-hw-description /mnt/hgfs/shared/zynq_petalinux.sdk/
 配置完成后`save`然后`exit` *大多数默认配置即可启动*  
 
 之后硬件文件不变配置工程可使用
