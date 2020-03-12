@@ -45,3 +45,5 @@ mkdir -p /opt/pkg/petalinux/2018.3
 ```bash
 ./Xilinx_SDK_2018.3_1207_2324_Lin64.bin
 ```
+## 5.使用Petalinux
+https://github.com/FishYu-CN/Petalinux18.3-install/blob/master/Petalinux-build.md
