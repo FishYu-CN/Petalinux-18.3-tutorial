@@ -30,13 +30,13 @@
 ### 3修改bash
     sudo dpkg-reconfigure dash
 ## 3.安装Petalinux
-把opt的组换换，好改权限
+把opt的组换换
 
     sudo chown fish:fish /opt
 整个安装文件夹
 
     mkdir -p /opt/pkg/petalinux/2018.3
-安装
+安装到那个文件夹里去
 
     ./petalinux-v2018.3-final-installer.run /opt/pkg/petalinux/2018.3
 ## 4.安装SDK
