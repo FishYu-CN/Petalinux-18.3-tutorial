@@ -4,7 +4,7 @@
 更换国内源 apt update 一条龙一下  
 用户名为fish
 ## 2.环境配置
-### 1NFS服务*（以后编写linux驱动要用）*
+### 1NFS服务 *以后编写linux驱动要用*
 安装NFS服务
 
     sudo apt-get install nfs-kernel-server
