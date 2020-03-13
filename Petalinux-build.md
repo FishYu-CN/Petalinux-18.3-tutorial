@@ -28,6 +28,7 @@ File > Export >Export hardware
 之后硬件文件不变配置工程可使用
 
     petalinux-config
+默认启动方式为RAMDISK，要想改为SD卡启动要在这里把Image Packaging Configuration->Root filesystem type改为SD Card，并指定设备节点。
 ## 5.配置内核
     petalinux-config -c kernel
 配置完成后`save`然后`exit` *大多数默认配置即可启动*
