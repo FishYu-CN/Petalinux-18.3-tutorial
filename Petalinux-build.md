@@ -43,4 +43,5 @@ File > Export >Export hardware
 ## 9.制作BOOT文件
     petalinux-package --boot --fsbl ./images/linux/zynq_fsbl.elf --fpga --u-boot --force
 ## 10.完成
-将`images/linux/BOOT.bin`和`images/linux/image.ub`拷入SD卡，即可启动
+将`images/linux/BOOT.bin`和`images/linux/image.ub`拷入SD卡，即可启动uboot与Petalinux内核，下面将启动rootfs。  
+要想启动sd卡中的ubuntu：https://github.com/FishYu-CN/Petalinux-18.3-tutorial/blob/master/Petalinux-Rootfs.md
